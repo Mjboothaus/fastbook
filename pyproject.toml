@@ -1,0 +1,21 @@
+[project]
+name = "fastbook"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Michael Booth", email = "michael@databooth.com.au"},
+]
+dependencies = [
+    "fastbook>=0.0.29",
+    "fastai>=2.7.14",
+    "notebook>=7.1.2",
+    "pyunsplash>=1.0.0rc2",
+    "loguru>=0.7.2",
+]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "DataBooth"}
+
+
+[tool.pdm]
+distribution = false
